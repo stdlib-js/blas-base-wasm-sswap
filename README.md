@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sswap@esm/index.mjs';
+import sswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sswap@v0.1.0-esm/index.mjs';
 ```
 
 #### sswap.main( N, x, strideX, y, strideY )
@@ -317,7 +317,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sswap@esm/index.mjs';
+import sswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sswap@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
